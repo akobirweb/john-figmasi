@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+    list-style: none;   
+}
+
+.nav-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    width: 70%;
+    max-width: 682px;
+    margin: 0 auto;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    margin-top: 27px;
+    margin-right: 60px;
+    gap: 30px;
+}
+ul li{
+    height: 43px;
+}
+.goot li:first-child{
+    display: none;
+    font-size: 30px;
+}
+a:link, a:visited{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.active{
+    color: #FF6464 !important;
+}
+main > h1{
+    font-size: 44px;
+    margin-top: 90px;
+    margin-bottom: 23px
+}
+
+article{
+    margin-top: 23px;
+    line-height: 36px;
+}
+
+article p:last-child{
+    font-size: 16px;
+
+}
+article > h3{
+    font-size: 30px;
+}
+.date{
+    font-size: 20px;
+}
+.date::after{
+    content: "Express Handlebars";
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+    color: #aaa;
+    font-size: 20px;
+}
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.icons ul li a{
+    font-size: 30px;
+}
+
+
+.icons{
+    margin-top: 104px;
+}
+.icons ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 54px;
+}
+@media (max-width: 600px){
+    .goot{
+        margin-right: 0;
+    }
+
+    .goot li{
+        display: none;
+    }
+    .goot li:first-child{ 
+        display: block ;
+    }
+    main > h1{
+        margin-top: 0;
+    }
+}
+
+

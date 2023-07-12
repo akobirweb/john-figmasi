@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo",sans-serif;
+}
+/* RESET DEFAULT STYLES */
+
+ul,
+li{
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    width: 208px;
+height: 47px;
+flex-shrink: 0;
+color: aliceblue;
+border-radius: 2px;
+background: #bb1010;
+margin-top: 111px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* RESET DEFAULT STYLES */
+
+/* MAIN CLASSES */
+.container {
+    max-width: 858px;
+    margin: 0 auto;
+}
+
+header .nav-menu {
+    
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    padding: 27px 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 0 70px 0;
+}
+
+.header-content h1{
+width: 506px;
+height: 105px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-color, #21243D);
+font-size: 44px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+.header-content p{
+width: 497px;
+height: 66px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-color, #21243D);
+font-size: 16px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 40px;
+
+}
+
+.img{
+    width: 243px;
+height: 243px;
+flex-shrink: 0;
+
+border-radius: 243px;
+}
+
+
+.nav-menu-item {
+    display: flex;
+width: 57px;
+height: 43px;
+flex-direction: column;
+flex-shrink: 0;
+font-family: heebo;
+font-weight: bold;
+color: black;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+    
+      
+ }   
+

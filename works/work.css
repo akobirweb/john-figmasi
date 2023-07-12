@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul  {
+ display: flex;
+ justify-content: end;
+ margin-top: 27px;
+ margin-right: 60px;
+ gap: 30px;
+}
